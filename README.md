@@ -1,2 +1,82 @@
 # stock_price_prediction
 A Streamlit-based web application that predicts next-day stock prices using historical data and machine learning (Random Forest). It includes technical indicators like moving averages and gives smart buy/sell recommendations based on predictions. Built with Python, yFinance, scikit-learn, and interactive plots.
+
+Great question! A good `README.md` is like a **project pitch** — it tells visitors what your project does, how to use it, and why it's cool. Here's a complete but **simple and clean README structure** you can use for your **Stock Price Predictor App**:
+
+---
+
+## 📈 Stock Price Predictor with Smart Recommendations
+
+A **Streamlit web app** that predicts the next day's stock prices using historical data and **Random Forest regression**, with smart recommendations like "Buy", "Hold", or "Sell". It also displays **moving averages**, price trends, and model evaluation metrics.
+
+---
+
+### 🔧 Features
+
+* 📊 Predict next-day stock prices using machine learning
+* 🏦 Fetch real-time stock data via **yFinance**
+* 📈 Plot closing price with **MA10**, **MA50**, **MA100**
+* 💡 Get dynamic **buy/sell/hold recommendations**
+* 🔍 Search from a company list (`company_list.csv`)
+* 🎨 Clean Streamlit UI with charts and evaluation metrics
+
+---
+
+### 🛠️ Technologies Used
+
+* Python
+* Streamlit
+* yFinance
+* scikit-learn (Random Forest Regressor)
+* Matplotlib, Pandas
+* HTML/CSS for Streamlit styling
+
+---
+
+### 🚀 Getting Started
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Stock-Prediction-App.git
+cd Stock-Prediction-App
+```
+
+#### 2. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. Run the App
+
+```bash
+streamlit run search.py
+```
+
+---
+
+### 📂 File Structure
+
+├── search.py                # Main Streamlit application
+├── company_list.csv         # List of companies and ticker symbols
+├── README.md                # Project description
+└── requirements.txt         # Python dependencies
+
+---
+
+### 📝 Example Input
+
+> Enter a ticker symbol like `AAPL`, `TSLA`, or `MSFT` in the app input box.
+> You’ll see:
+
+* Current and predicted prices
+* Moving averages
+* Buy/Sell/Hold recommendation
+* Evaluation metrics (MAE, MSE, R²)
+
+---
+
+### 📌 Note
+
+Make sure your system has a stable internet connection — the app fetches live stock data and company info.
