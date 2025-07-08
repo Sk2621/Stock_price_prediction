@@ -55,12 +55,12 @@ streamlit run search.py
 ---
 
 ### 📂 File Structure
-'''
+```
 ├── search.py                # Main Streamlit application
 ├── company_list.csv         # List of companies and ticker symbols
 ├── README.md                # Project description
 └── requirements.txt         # Python dependencies
-'''
+```
 ---
 
 ### 📝 Example Input
