@@ -1,8 +1,6 @@
 # Stock_price_prediction
 A Streamlit-based web application that predicts next-day stock prices using historical data and machine learning (Random Forest). It includes technical indicators like moving averages and gives smart buy/sell recommendations based on predictions. Built with Python, yFinance, scikit-learn, and interactive plots.
 
-Great question! A good `README.md` is like a **project pitch** — it tells visitors what your project does, how to use it, and why it's cool. Here's a complete but **simple and clean README structure** you can use for your **Stock Price Predictor App**:
-
 ---
 
 ## 📈 Stock Price Predictor with Smart Recommendations
