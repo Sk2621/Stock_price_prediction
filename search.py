@@ -89,7 +89,7 @@ def main():
 
     # Load company list CSV
     try:
-        df_companies = pd.read_csv('company_list.csv')  # Columns: 'Company Name', 'Ticker'
+        df_companies = pd.read_csv('data/company_list.csv')  # Columns: 'Company Name', 'Ticker'
     except FileNotFoundError:
         st.error("Company list file 'company_list.csv' not found.")
         return
